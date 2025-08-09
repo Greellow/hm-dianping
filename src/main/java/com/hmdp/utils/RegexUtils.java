@@ -22,7 +22,6 @@ public class RegexUtils {
     public static boolean isEmailInvalid(String email){
         return mismatch(email, RegexPatterns.EMAIL_REGEX);
     }
-
     /**
      * 是否是无效验证码格式
      * @param code 要校验的验证码
