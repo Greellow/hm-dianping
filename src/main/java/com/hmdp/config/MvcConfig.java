@@ -17,7 +17,7 @@ public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        // 拦截器1：Token 刷新拦截器
+         //拦截器1：Token 刷新拦截器
         registry.addInterceptor(new RefreshTokenInterceptor(stringRedisTemplate))
                 .addPathPatterns("/**") // 拦截所有请求
                 .order(0); // 设置执行顺序为最优先
