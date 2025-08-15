@@ -2,6 +2,9 @@
   <dictionary name="project">
     <words>
       <w>hmdp</w>
+      <w>incrby</w>
+      <w>sadd</w>
+      <w>xadd</w>
     </words>
   </dictionary>
 </component>
